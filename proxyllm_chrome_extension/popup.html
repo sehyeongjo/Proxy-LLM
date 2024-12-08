@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        width: 200px;
+        margin: 0;
+        padding: 15px;
+      }
+      #title-text {
+        font-size: 15px;
+        padding-bottom: 10px;
+        font-weight: bold;
+      }
+      #radio-button-list {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      .radio-button-div {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-weight: bold;
+      }
+      #textarea-div {
+        margin-top: 10px;
+        padding-left: 10px;
+      }
+      #textarea-div > textarea {
+        height: 50px;
+        resize: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div id="title-text">Sentiment Setting</div>
+      <div id="radio-button-list">
+        <div class="radio-button-div">
+          <input
+            type="radio"
+            id="default"
+            name="sentiment"
+            value="default"
+            checked
+          />
+          <label for="default">Default</label>
+        </div>
+        <div class="radio-button-div">
+          <input type="radio" id="original" name="sentiment" value="original" />
+          <label for="original">Original</label>
+        </div>
+        <div class="radio-button-div">
+          <input type="radio" id="neutral" name="sentiment" value="neutral" />
+          <label for="neutral">Neutral</label>
+        </div>
+        <div class="radio-button-div">
+          <input type="radio" id="positive" name="sentiment" value="positive" />
+          <label for="positive">Positive</label>
+        </div>
+        <div class="radio-button-div">
+          <input type="radio" id="custom" name="sentiment" value="custom" />
+          <label for="custom">Custom</label>
+        </div>
+        <div id="textarea-div">
+          <textarea></textarea>
+        </div>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

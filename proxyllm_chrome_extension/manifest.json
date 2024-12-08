@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Proxy LLM Chrome Extension",
+  "version": "1.0",
+  "permissions": ["tabs", "activeTab", "scripting", "storage"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": ["<<HOST_INFORMATION>>]"],
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["contentscript.js"]
+    }
+  ]
+}
