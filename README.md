@@ -7,3 +7,11 @@ Chatbot-based customer support services have significantly advanced with the int
 ## Overview of the ProxyLLM
 
 ![overview_img](https://github.com/user-attachments/assets/f9a42526-88cf-4267-9a30-a7feb191a765)
+
+## LLM API Server
+
+The backend server is a [Flask](https://flask.palletsprojects.com/en/3.0.x/) server.
+
+### Starting the server
+
+Before starting the server, blahblah
