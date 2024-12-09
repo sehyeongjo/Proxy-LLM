@@ -35,9 +35,10 @@ def generate_response():
             choice = data["choice"]
             custom = data["custom"]
 
-            prompt_text = data["prompt"]            
+            prompt_text = "This is original text. Change this text style."
+            prompt_text += data["prompt"]
             neutral_text = "a neutral tone to remove any emotional, biased, or subjective elements while preserving the original meaning."
-            positive_text = "a positive tone, enhancing the optimism and uplifting language while preserving the original meaning and intent."
+            positive_text = "a positive tone, enhancing the optimism and uplifting language while preserving the original meaning."
 
             if choice == "default":
                 prompt_text += "Change this text style to be more polite."
@@ -51,9 +52,7 @@ def generate_response():
                 else:
                     prompt_text += "Change this text style to be more polite."
 
-            prompt_text += "Don't use like 'Here's a revised version of the message that sounds more polite and respectful : '. just only write message. Not the answer. Just change text style."
-
-            print(prompt_text)
+            prompt_text += "Don't use like 'Here's a revised version of the message that sounds more polite and respectful : '. just only write message. Just change text style."
 
             # Request data to be sent to the Olama API
             ollama_payload = {

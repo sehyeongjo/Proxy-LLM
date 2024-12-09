@@ -11,7 +11,3 @@ Chatbot-based customer support services have significantly advanced with the int
 ## LLM API Server
 
 The backend server is a [Flask](https://flask.palletsprojects.com/en/3.0.x/) server.
-
-### Starting the server
-
-Before starting the server, blahblah
