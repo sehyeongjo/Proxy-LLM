@@ -8,6 +8,10 @@ Chatbot-based customer support services have significantly advanced with the int
 
 <img width="1444" alt="overview" src="https://github.com/user-attachments/assets/ecf81d23-a72a-45d6-aa72-4a7304e81635">
 
+## Application Workflow
+
+<img width="1507" alt="workflow" src="https://github.com/user-attachments/assets/bc6fcb90-274e-4546-a2eb-1eb46d58322c">
+
 ## LLM API Server
 
 The backend server is a [Flask](https://flask.palletsprojects.com/en/3.0.x/) server.
