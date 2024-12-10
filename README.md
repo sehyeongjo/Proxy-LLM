@@ -16,6 +16,16 @@ Chatbot-based customer support services have significantly advanced with the int
 
 The backend server is a [Flask](https://flask.palletsprojects.com/en/3.0.x/) server.
 
+## Demo
+
+### Text-style Transfer
+
+<https://github.com/user-attachments/assets/d58bf630-1c33-4af1-ac5e-74c711f90adb>
+
+### Personal Sentiment Setting
+
+<https://github.com/user-attachments/assets/ee3028ff-d616-4464-b485-e8263f01b371>
+
 ## Evaluation Sample Texts
 
 | <center>No</center> | <center>Original Text</center>                                                                                                                                                                                                                    | <center>Transferred Text</center>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |

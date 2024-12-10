@@ -16,9 +16,18 @@ chrome.runtime.onMessage.addListener(async (message, sender, sendResponse) => {
 
     textArea.style.display = "none";
 
-    var text = document.querySelector(".adn.ads>.gs>div:nth-child(3) span");
+    let loadingDiv = document.getElementById("loading-div");
 
-    console.log(text.textContent);
+    if (loadingDiv) {
+      loadingDiv.style.display = "block";
+    } else {
+      textArea.insertAdjacentHTML(
+        "afterend",
+        "<div id='loading-div' style='display: block;'>Waiting for a response.</div>"
+      );
+    }
+
+    var text = document.querySelector(".adn.ads>.gs>div:nth-child(3) span");
 
     async function getStorageValue(key) {
       return new Promise((resolve, reject) => {
@@ -60,6 +69,7 @@ chrome.runtime.onMessage.addListener(async (message, sender, sendResponse) => {
         if (response && response.response) {
           console.log("Response received:", response.response);
           text.textContent = response.response;
+          document.querySelector("#loading-div").style.display = "none";
           textArea.style.display = "block";
         } else {
           console.error("No response received or an error occurred.");
