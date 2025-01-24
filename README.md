@@ -1,5 +1,12 @@
 # ProxyLLM : LLM-Driven Framework for Customer Support Through Text-Style Transfer
 
+This repository is the official implementation of [ProxyLLM : LLM-Driven Framework for Customer Support Through Text-Style Transfer](https://arxiv.org/pdf/2412.09916)
+
+[Sehyeong Jo](https://scholar.google.com/citations?user=jBfesEcAAAAJ&hl=en),
+[Jungwon Seo](https://scholar.google.com/citations?user=ttx5rz0AAAAJ&hl=en)
+
+[![arXiv](https://img.shields.io/badge/arXiv-2412.09916-b31b1b.svg)](https://arxiv.org/pdf/2412.09916)
+
 ## Abstract
 
 Chatbot-based customer support services have significantly advanced with the introduction of large language models (LLMs), enabling enhanced response quality and broader application across industries. However, while these advancements focus on reducing business costs and improving customer satisfaction, limited attention has been given to the experiences of customer service agents, who are critical to the service ecosystem. A major challenge faced by agents is the stress induced by verbal abuse and emotionally charged interactions, which not only impairs their efficiency but also negatively impacts customer satisfaction and business outcomes. In this work, we propose an LLM-based request-response transformer designed not to replace agents but to safeguard their mental well-being. Our approach leverages LLMs to mediate emotionally charged customer requests, ensuring high-quality responses while alleviating the psychological burden on agents. Furthermore, the application is implemented as a Chrome extension, making it highly adaptable and easy to integrate into existing systems. By addressing these challenges, our method aims to enhance the overall service experience for businesses, customers, and agents alike.
@@ -40,3 +47,16 @@ The backend server is a [Flask](https://flask.palletsprojects.com/en/3.0.x/) ser
 | 8                   | "I was assured that my order would arrive on time, but it was delayed by several days without any notice. This caused significant inconvenience, and I expect compensation for the delay."                                                        | "I was told that my order would arrive on schedule, but it ended up being delayed by several days without any prior notice. Although this setback caused some inconvenience, I appreciate your attention to this matter and hope we can resolve it amicably. I'm confident that we can find a solution together that satisfies both of us."                                                                                                                                                                                                                             |
 | 9                   | "The subscription service you offer is a nightmare to cancel. I’ve tried multiple times to get in touch with your team, but no one seems willing to help. This feels like a deliberate attempt to trap customers, and I demand immediate action." | "I appreciate your feedback regarding our subscription service cancellation process. I'm so sorry to hear that you've had trouble getting in touch with our team. That doesn't sound like the experience we want for our valued customers. We're committed to making things right and would love the opportunity to help you cancel your subscription now. Can you please give us another chance to assist you? We'll do our best to ensure a smooth and hassle-free cancellation process from here on out."                                                            |
 | 10                  | "The warranty claim process has been an absolute disaster. I submitted all the required documents weeks ago, but I haven’t heard anything back. This is highly frustrating, and I expect an update as soon as possible."                          | "I'm reaching out regarding my warranty claim, which I submitted with all required documents several weeks ago. I'd greatly appreciate it if someone could look into this matter as soon as possible and provide an update on the status of my claim. I'm confident that we can resolve this amicably and efficiently."                                                                                                                                                                                                                                                 |
+
+## Citation
+
+If you find our work interesting, please cite our paper.
+
+```bibtex
+@article{jo2024proxyllm,
+  title={ProxyLLM: LLM-Driven Framework for Customer Support Through Text-Style Transfer},
+  author={Jo, Sehyeong and Seo, Jungwon},
+  journal={arXiv preprint arXiv:2412.09916},
+  year={2024}
+}
+```
