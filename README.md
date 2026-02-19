@@ -1,6 +1,6 @@
 # ProxyLLM : LLM-Driven Framework for Customer Support Through Text-Style Transfer
 
-This repository is the official implementation of [ProxyLLM : LLM-Driven Framework for Customer Support Through Text-Style Transfer](https://arxiv.org/pdf/2412.09916)
+This repository is the official implementation of [ProxyLLM : LLM-Driven Framework for Customer Support Through Text-Style Transfer](https://link.springer.com/chapter/10.1007/978-3-032-06129-4_28)
 
 ## Accepted European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD), 2025
 
