@@ -55,10 +55,12 @@ The backend server is a [Flask](https://flask.palletsprojects.com/en/3.0.x/) ser
 If you find our work interesting, please cite our paper.
 
 ```bibtex
-@article{jo2024proxyllm,
+@inproceedings{jo2025proxyllm,
   title={ProxyLLM: LLM-Driven Framework for Customer Support Through Text-Style Transfer},
   author={Jo, Sehyeong and Seo, Jungwon},
-  journal={arXiv preprint arXiv:2412.09916},
-  year={2024}
+  booktitle={Joint European Conference on Machine Learning and Knowledge Discovery in Databases},
+  pages={444--448},
+  year={2025},
+  organization={Springer}
 }
 ```
